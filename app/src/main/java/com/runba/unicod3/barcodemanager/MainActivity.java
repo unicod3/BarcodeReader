@@ -62,10 +62,12 @@ public class MainActivity extends ActionBarActivity {
         if(result != null) {
             if(result.getContents() == null) {
                 //Log.d("MainActivity", "Cancelled scan");
-                txtResult.setText(R.string.cancelled);
+                String cancelled = getResources().getString(R.string.cancelled);
+                txtResult.setText(cancelled);
             } else {
                // Log.d("MainActivity", "Scanned");
-                txtResult.setText( R.string.scanTitle + " \n" + result.getContents());
+                String scanTitle = getResources().getString(R.string.scanTitle);
+                txtResult.setText( scanTitle + " \n" + result.getContents());
             }
         } else {
             Log.d("MainActivity", "Weird");
