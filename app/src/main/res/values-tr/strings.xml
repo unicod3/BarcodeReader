@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarcodeManager</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="any_orientation">1D Oryantasyon</string>
+    <string name="custom_activity">Aktif Tarama</string>
+    <string name="front_camera">Ön Kamera</string>
+    <string name="scan_barcode">Barkod Tara</string>
+    <string name="scan_from_fragment">Bölüm Taraması</string>
+    <string name="toolbar_activity">Araç Çubuğu Aktivitesi</string>
+    <string name="cancelled">İşlem Sonlandırıldı!</string>
+    <string name="txtResultDefault">Butona tıklayınız ve kameraya barkodu gösteriniz.</string>
+    <string name="scanTitle">Taranan Bilgi:</string>
+</resources>

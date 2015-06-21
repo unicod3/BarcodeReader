@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Barcode Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="cancelled">Process Cancelled!</string>
+    <string name="txtResultDefault">Click the button and show the barcode to cam. </string>
+    <string name="scanTitle">Scanned Info:</string>
+</resources>
