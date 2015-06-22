@@ -18,6 +18,7 @@
         android:id="@+id/txtResult"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/txtResultDefault" />
+        android:text="@string/txtResultDefault"
+        android:textSize="20sp" />
 
 </RelativeLayout>
